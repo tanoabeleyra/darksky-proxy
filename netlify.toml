@@ -1,0 +1,6 @@
+[build]
+  command = "netlify-lambda build endpoints/"
+  functions = "functions"
+[template.environment]
+  API_KEY="Set your API key"
+  CORS_WHITELIST="Optional comma-separated list of allowed cross-origin domains"
