@@ -4,3 +4,4 @@
 [template.environment]
   API_KEY="Set your API key"
   CORS_WHITELIST="Optional comma-separated list of allowed cross-origin domains"
+  CACHE_TIMEOUT=3600
